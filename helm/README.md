@@ -186,6 +186,11 @@ REVISION: 1
 TEST SUITE: None
 ```
 
+## Enable Ingress in Minikube
+Enable minikube ingress addon : `minikube addons enable ingress`
+Minikube has a built-in way to provision LoadBalancers using `minikube tunnel`.
+
+
 ## Maintanance
 
 In order to check the list of Helm releases:
